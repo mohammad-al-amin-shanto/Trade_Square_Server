@@ -2,6 +2,7 @@ import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
 import connectDB from './config/db';
 
+
 const app: Application = express();
 
 // DB connection
